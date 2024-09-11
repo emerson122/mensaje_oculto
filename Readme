@@ -1,0 +1,9 @@
+Para usar este script y crear el escenario de aprendizaje, sigue estos pasos:
+
+Guarda el script en un archivo llamado aleatorio.py.
+Antes de ejecutar el script, necesitas configurar un servidor web simple en tu máquina local. Puedes usar Python para esto. Abre una nueva ventana de comando y ejecuta:
+python -m http.server 8000
+
+en otra consola ejecuta asegurate de estar en la misma ruta donde esta el archivo
+
+python aleatorio.py
