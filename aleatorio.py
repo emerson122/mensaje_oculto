@@ -16,7 +16,7 @@ palabras = ["python", "seguridad", "red", "wireshark", "captura", "paquete", "Gu
 def generar_mensaje_secreto():
     palabra_clave = random.choice(palabras)
     numero_aleatorio = random.randint(1000, 9999)
-    mensaje_base = "MENSAJE_SECRETO_ES_Hora_de_un_Descanso"
+    mensaje_base = "MENSAJE_SECRETO_ENCONTRADO_Felicidades_La_informacion_confidencial_es_"
     return f"{mensaje_base}_{palabra_clave.upper()}_{numero_aleatorio}"
 
 # Generar el mensaje secreto al inicio del programa
