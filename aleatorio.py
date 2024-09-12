@@ -48,7 +48,7 @@ def start_attack():
         thread.join()
 
 if __name__ == "__main__":
-    print(f"Iniciando simulación de ataque DDoS con mensaje oculto en {target_url}")
+    print(f"Iniciando simulación de ataque DoS con mensaje oculto en {target_url}")
     print(f"Duración: {attack_duration} segundos")
     print("ADVERTENCIA: Este script es solo para fines educativos en un entorno controlado.")
     # print(f"Mensaje secreto generado: {mensaje_secreto}")
