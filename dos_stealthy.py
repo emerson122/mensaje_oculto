@@ -5,7 +5,7 @@ import time
 import string
 
 # Configuración
-target_url = "http://127.0.0.1:8000"  # Asegúrate de que este puerto esté abierto o cámbialo según sea necesario
+target_url = "http://127.0.0.1:8000"  # Se debe verificar que el puerto esté abierto o cámbialo según sea necesario
 num_threads = 50
 attack_duration = 30  # El ataque dura solo 30 segundos
 
